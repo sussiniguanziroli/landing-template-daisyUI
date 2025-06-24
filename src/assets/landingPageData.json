@@ -1,0 +1,146 @@
+{
+  "appName": "AwesomeApp",
+  "theme": "nord",
+  "header": {
+    "navigation": [
+      { "name": "Features", "href": "#features" },
+      { "name": "Pricing", "href": "#pricing" },
+      { "name": "Testimonials", "href": "#testimonials" }
+    ],
+    "ctaButton": {
+      "text": "Get Started",
+      "href": "#pricing"
+    }
+  },
+  "hero": {
+    "title": "Build Your Next Idea",
+    "highlightedText": "Faster",
+    "subtitle": "The ultimate starting point for your next project. A modern, responsive, and customizable landing page template built with React, Tailwind CSS, and DaisyUI.",
+    "buttons": {
+      "primary": {
+        "text": "Get Started for Free",
+        "href": "#pricing"
+      },
+      "secondary": {
+        "text": "Learn More",
+        "href": "#features"
+      }
+    }
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Everything you need to succeed",
+    "description": "Our platform is packed with features designed to help you build, launch, and grow your business.",
+    "items": [
+      {
+        "name": "Modern Component Library",
+        "description": "Leverage the power of DaisyUI for beautiful, pre-built components that are easy to theme and customize.",
+        "icon": "CheckCircle"
+      },
+      {
+        "name": "Accessible UI",
+        "description": "Built with Headless UI to ensure that all interactive elements are fully accessible and keyboard-navigable out of the box.",
+        "icon": "CheckCircle"
+      },
+      {
+        "name": "Responsive by Design",
+        "description": "Using Tailwind CSS, this template is fully responsive and looks great on all devices, from mobile phones to desktops.",
+        "icon": "CheckCircle"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "subtitle": "Loved by developers worldwide",
+    "description": "Don't just take our word for it. Here's what some of our amazing users have to say about AwesomeApp.",
+    "items": [
+      {
+        "quote": "This template saved me hours of development time. The code is clean, and the design is stunning. Highly recommended!",
+        "author": "Alex Johnson",
+        "role": "Lead Developer, TechCorp",
+        "avatar": "https://placehold.co/100x100/ec4899/ffffff?text=AJ"
+      },
+      {
+        "quote": "A perfect starting point for any SaaS project. The integration of DaisyUI and Headless UI is seamless and powerful.",
+        "author": "Samantha Lee",
+        "role": "Founder, StartupX",
+        "avatar": "https://placehold.co/100x100/8b5cf6/ffffff?text=SL"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Simple, transparent pricing",
+    "description": "Choose the plan that's right for you. No hidden fees, ever.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$29",
+        "period": "/month",
+        "description": "Perfect for individuals and small teams just getting started.",
+        "features": ["5 Projects", "Basic Analytics", "24/7 Support"],
+        "isPopular": false,
+        "ctaText": "Get Started"
+      },
+      {
+        "name": "Pro",
+        "price": "$99",
+        "period": "/month",
+        "description": "Ideal for growing businesses that need more power and features.",
+        "features": ["Unlimited Projects", "Advanced Analytics", "Priority Support", "API Access"],
+        "isPopular": true,
+        "ctaText": "Get Started"
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "period": "",
+        "description": "Tailored solutions for large organizations with specific needs.",
+        "features": ["Dedicated Infrastructure", "Custom Integrations", "SLA & SSO", "Premium Support"],
+        "isPopular": false,
+        "ctaText": "Contact Sales"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Ready to dive in?",
+    "subtitle": "Start your free trial today. No credit card required.",
+    "button": {
+      "text": "Create your account",
+      "href": "#"
+    }
+  },
+  "footer": {
+    "company": {
+      "name": "AwesomeApp Ltd.",
+      "description": "Providing reliable tech since 2023"
+    },
+    "linkGroups": [
+        {
+            "title": "Solutions",
+            "links": [
+                { "name": "Marketing", "href": "#" },
+                { "name": "Analytics", "href": "#" },
+                { "name": "Commerce", "href": "#" },
+                { "name": "Insights", "href": "#" }
+            ]
+        },
+        {
+            "title": "Company",
+            "links": [
+                { "name": "About us", "href": "#" },
+                { "name": "Contact", "href": "#" },
+                { "name": "Jobs", "href": "#" },
+                { "name": "Press kit", "href": "#" }
+            ]
+        },
+        {
+            "title": "Legal",
+            "links": [
+                { "name": "Terms of use", "href": "#" },
+                { "name": "Privacy policy", "href": "#" },
+                { "name": "Cookie policy", "href": "#" }
+            ]
+        }
+    ]
+  }
+}
