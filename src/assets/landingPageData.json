@@ -1,33 +1,33 @@
 {
-  "corporate": {
+  "sterlingLaw": {
     "globals": {
-      "appName": "BrightSmile Dental Group",
-      "theme": "winter"
+      "appName": "Sterling & Roe LLP",
+      "theme": "rainyzero"
     },
     "layout": [
       {
         "component": "Hero",
         "data": {
-          "title": "A Brighter Smile Awaits",
-          "highlightedText": "You",
-          "subtitle": "Experience state-of-the-art dental care from our trusted network of expert dentists and modern clinics. Your oral health is our priority.",
+          "title": "Unparalleled Legal",
+          "highlightedText": "Expertise",
+          "subtitle": "Sterling & Roe delivers strategic counsel for complex corporate and financial matters. We are the architects of legal solutions for the modern economy.",
           "buttons": {
-            "primary": { "text": "Book an Appointment", "href": "#" },
-            "secondary": { "text": "Explore Our Services", "href": "#services" }
+            "primary": { "text": "Engage Our Counsel", "href": "#contact" },
+            "secondary": { "text": "Explore Our Expertise", "href": "#expertise" }
           }
         }
       },
       {
         "component": "Features",
         "data": {
-          "id": "services",
-          "title": "Our Commitment to You",
-          "subtitle": "Advanced Care and Comfort",
-          "description": "We combine cutting-edge technology with a patient-first approach to ensure you receive the best possible care.",
+          "id": "expertise",
+          "title": "Our Expertise",
+          "subtitle": "Strategic Corporate & Financial Law",
+          "description": "Our practice is built on a foundation of deep industry knowledge and a commitment to achieving our clients' strategic objectives.",
           "items": [
-            { "name": "Comprehensive Dentistry", "description": "From routine check-ups and cleanings to fillings and root canals, we are your home for complete oral health.", "icon": "CheckCircle" },
-            { "name": "State-of-the-Art Technology", "description": "Our clinics are equipped with digital X-rays, 3D imaging, and intraoral cameras for precise diagnoses.", "icon": "CheckCircle" },
-            { "name": "Patient-Centered Comfort", "description": "We strive to make your visit as comfortable and stress-free as possible, with friendly staff and a relaxing environment.", "icon": "CheckCircle" }
+            { "name": "Mergers & Acquisitions", "description": "Navigating high-stakes transactions with precision, from due diligence to closing.", "icon": "CheckCircle" },
+            { "name": "Securities Law", "description": "Advising public and private companies on compliance, offerings, and regulatory matters.", "icon": "CheckCircle" },
+            { "name": "Intellectual Property", "description": "Protecting and monetizing your most valuable intangible assets with strategic counsel.", "icon": "CheckCircle" }
           ]
         }
       },
@@ -35,195 +35,80 @@
         "component": "Testimonials",
         "data": {
           "id": "testimonials",
-          "title": "Patient Stories",
-          "subtitle": "Hear from Our Valued Patients",
-          "description": "See why professionals and families trust BrightSmile Dental Group.",
+          "title": "Client Endorsements",
+          "subtitle": "Trusted by Industry Leaders",
+          "description": "We are proud to be the trusted advisors for innovators and market leaders.",
           "items": [
-            { "quote": "The entire team was incredibly welcoming and professional. My procedure was painless, and I felt comfortable the whole time.", "author": "Maria Rodriguez", "role": "Patient", "avatar": "https://placehold.co/100x100/1abc9c/ffffff?text=MR" },
-            { "quote": "As a busy professional, I appreciate the efficiency and high-tech approach. They got my crown done in a single visit.", "author": "David Chen", "role": "Patient", "avatar": "https://placehold.co/100x100/3498db/ffffff?text=DC" }
+            { "quote": "Sterling & Roe's guidance during our international merger was invaluable. Their strategic insight and meticulous execution were critical to our success. They are in a class of their own.", "author": "CEO, Global Tech Inc.", "role": "M&A Client", "avatar": "https://placehold.co/100x100/34495e/ecf0f1?text=GT" },
+            { "quote": "The IP team at Sterling & Roe is second to none. They secured our patent portfolio and developed a licensing strategy that created a significant new revenue stream for our company.", "author": "Founder, InnovateX", "role": "IP Client", "avatar": "https://placehold.co/100x100/95a5a6/ecf0f1?text=IX" }
           ]
         }
       },
       {
-        "component": "Plans",
+        "component": "Contact",
         "data": {
-          "id": "clinics",
-          "title": "Flexible Dental & Insurance Plans",
-          "description": "We believe quality dental care should be accessible. We accept a wide range of insurance plans and offer flexible financing options.",
-          "plans": [
-            { "name": "Major Insurance Accepted", "price": "", "period": "", "description": "We are in-network with most major PPO dental insurance providers.", "features": ["Delta Dental", "MetLife", "Cigna", "Aetna & more"], "isPopular": true, "ctaText": "Verify Your Insurance" },
-            { "name": "In-House Membership", "price": "", "period": "", "description": "No insurance? Our membership plan provides affordable access to preventive care.", "features": ["Two Cleanings per Year", "Annual Exams & X-Rays", "Discounts on Procedures"], "isPopular": false, "ctaText": "Learn More" }
-          ]
-        }
-      },
-      {
-        "component": "CTA",
-        "data": {
-          "title": "Ready to improve your smile?",
-          "subtitle": "Schedule your first consultation today at a clinic near you.",
-          "button": { "text": "Find Your Nearest Clinic", "href": "#" }
+          "id": "contact",
+          "title": "Contact Our Firm",
+          "subtitle": "A Direct Line to Our Team",
+          "description": "For inquiries regarding representation, please reach out via our primary channels.",
+          "socials": {
+            "Gmail": "mailto:consult@sterlingroe.com",
+            "Linkedin": "https://linkedin.com/company/sterlingroe"
+          }
         }
       }
     ],
     "header": {
       "navigation": [
-        { "name": "Our Services", "href": "#services" },
-        { "name": "Find a Clinic", "href": "#clinics" },
-        { "name": "Patient Stories", "href": "#testimonials" }
+        { "name": "Expertise", "href": "#expertise" },
+        { "name": "Our Team", "href": "#" },
+        { "name": "Insights", "href": "#" }
       ],
-      "ctaButton": { "text": "Book Appointment", "href": "#" }
+      "ctaButton": { "text": "Contact", "href": "#contact" }
     },
     "footer": {
-      "company": { "name": "BrightSmile Dental Group Inc.", "description": "A network of trusted dental professionals." },
+      "company": { "name": "Sterling & Roe LLP", "description": "Strategic Legal Counsel." },
       "linkGroups": [
-        { "title": "Services", "links": [{ "name": "General Dentistry", "href": "#" }, { "name": "Cosmetic Dentistry", "href": "#" }] },
-        { "title": "Company", "links": [{ "name": "About Us", "href": "#" }, { "name": "Contact", "href": "#" }] }
+        { 
+          "title": "Practice Areas", 
+          "links": [
+            { "name": "Mergers & Acquisitions", "href": "#" }, 
+            { "name": "Securities Law", "href": "#" },
+            { "name": "Intellectual Property", "href": "#" }
+          ] 
+        },
+        { 
+          "title": "Company", 
+          "links": [
+            { "name": "About Us", "href": "#" }, 
+            { "name": "Careers", "href": "#" }
+          ] 
+        },
+        { 
+          "title": "Legal", 
+          "links": [
+            { "name": "Terms of Use", "href": "#" }, 
+            { "name": "Privacy Policy", "href": "#" }
+          ] 
+        }
       ]
     }
   },
-  "family": {
+  "showcase": {
     "globals": {
-      "appName": "Happy Teeth Dental",
+      "appName": "Showcase",
       "theme": "cupcake"
     },
     "layout": [
       {
         "component": "Hero",
         "data": {
-          "title": "Gentle Care for",
-          "highlightedText": "Every Smile",
-          "subtitle": "Welcome to our family! We make dental visits fun and fearless for kids, and relaxing and comfortable for parents.",
+          "title": "Showcase Every",
+          "highlightedText": "Component",
+          "subtitle": "This page demonstrates every available component in the modular system. Use this as a guide to see how each section can be customized and ordered.",
           "buttons": {
-            "primary": { "text": "Schedule a Visit", "href": "#" },
-            "secondary": { "text": "Meet Our Team", "href": "#" }
-          }
-        }
-      },
-      {
-        "component": "Features",
-        "data": {
-          "id": "care",
-          "title": "How We Care for Your Family",
-          "subtitle": "Happy Visits, Healthy Teeth",
-          "description": "We've created a warm, friendly space where every member of your family can feel at ease.",
-          "items": [
-            { "name": "Pediatric Specialists", "description": "Our kid-loving dentists are experts in making little ones comfortable.", "icon": "CheckCircle" },
-            { "name": "No More Tears Checkups", "description": "We use games and stories to make dental checkups a positive experience.", "icon": "CheckCircle" },
-            { "name": "Care for the Grown-Ups", "description": "Parents deserve great care too! We offer a full range of services in a calm setting.", "icon": "CheckCircle" }
-          ]
-        }
-      },
-      {
-        "component": "Testimonials",
-        "data": {
-          "id": "stories",
-          "title": "From Our Happy Families",
-          "subtitle": "What Parents Are Saying",
-          "description": "We're honored to be a trusted part of so many families' healthcare routines.",
-          "items": [
-            { "quote": "My son used to be terrified of the dentist, but the team at Happy Teeth is magical. He actually looks forward to his checkups now!", "author": "Jessica Miller", "role": "Parent", "avatar": "https://placehold.co/100x100/f1c40f/ffffff?text=JM" }
-          ]
-        }
-      },
-      {
-        "component": "CTA",
-        "data": {
-          "title": "Ready for a stress-free dental visit?",
-          "subtitle": "Join the Happy Teeth family today!",
-          "button": { "text": "Book Your First Visit", "href": "#" }
-        }
-      }
-    ],
-    "header": {
-      "navigation": [
-        { "name": "For Parents", "href": "#" },
-        { "name": "For Kids", "href": "#" },
-        { "name": "Our Doctors", "href": "#" }
-      ],
-      "ctaButton": { "text": "Book for the Family", "href": "#" }
-    },
-    "footer": {
-      "company": { "name": "Happy Teeth Dental", "description": "Caring for your family's smiles." },
-      "linkGroups": [
-        { "title": "For Patients", "links": [{ "name": "First Visit Guide", "href": "#" }, { "name": "Kid's Corner", "href": "#" }] }
-      ]
-    }
-  },
-  "cosmetic": {
-    "globals": {
-      "appName": "Aura Smile Design",
-      "theme": "dark"
-    },
-    "layout": [
-      {
-        "component": "Hero",
-        "data": {
-          "title": "Artistry Meets Dentistry",
-          "highlightedText": "Design Your Smile",
-          "subtitle": "Discover the potential of your smile with our bespoke cosmetic treatments, blending science and art.",
-          "buttons": {
-            "primary": { "text": "Begin Your Transformation", "href": "#" },
-            "secondary": { "text": "View Gallery", "href": "#" }
-          }
-        }
-      },
-      {
-        "component": "Testimonials",
-        "data": {
-          "id": "stories",
-          "title": "Life-Changing Results",
-          "subtitle": "Stories from Our Clients",
-          "description": "Confidence begins with a beautiful smile. Hear from those who have completed their transformation.",
-          "items": [
-            { "quote": "I never thought I could have a smile like this. The team at Aura didn't just change my teeth, they changed my life.", "author": "Sophia Loren", "role": "Veneers Client", "avatar": "https://placehold.co/100x100/9b59b6/ffffff?text=SL" },
-            { "quote": "The process was seamless, luxurious, and the results are beyond what I imagined. It's the best investment I've ever made.", "author": "James Peterson", "role": "Smile Makeover Client", "avatar": "https://placehold.co/100x100/ecf0f1/2c3e50?text=JP" }
-          ]
-        }
-      },
-      {
-        "component": "Plans",
-        "data": {
-          "id": "financing",
-          "title": "Investing In Your Confidence",
-          "description": "We provide premium financing options to make your dream smile an attainable luxury.",
-          "plans": [
-            { "name": "Premium Financing", "description": "Customized payment plans with competitive rates for cosmetic procedures.", "features": ["Plans up to 84 months", "Instant Online Approval", "Confidential Application"], "isPopular": true, "ctaText": "Explore Options" },
-            { "name": "Insurance for Restorative", "description": "We help maximize benefits for any restorative components of your treatment.", "features": ["Insurance Concierge Service", "Detailed Pre-Authorizations"], "isPopular": false, "ctaText": "Inquire Now" }
-          ]
-        }
-      }
-    ],
-    "header": {
-      "navigation": [
-        { "name": "Transformations", "href": "#" },
-        { "name": "Our Process", "href": "#" },
-        { "name": "Financing", "href": "#financing" }
-      ],
-      "ctaButton": { "text": "Book a Consultation", "href": "#" }
-    },
-    "footer": {
-      "company": { "name": "Aura Smile Design", "description": "Where artistry meets dentistry." },
-      "linkGroups": [
-        { "title": "Treatments", "links": [{ "name": "Porcelain Veneers", "href": "#" }, { "name": "Teeth Whitening", "href": "#" }] },
-        { "title": "Explore", "links": [{ "name": "Our Studio", "href": "#" }, { "name": "Gallery", "href": "#" }] }
-      ]
-    }
-  },
-  "saas": {
-    "globals": {
-      "appName": "SynthWave AI",
-      "theme": "nord"
-    },
-    "layout": [
-      {
-        "component": "Hero",
-        "data": {
-          "title": "Generate Content",
-          "highlightedText": "Instantly",
-          "subtitle": "SynthWave AI is a revolutionary platform that leverages generative AI to create high-quality marketing copy, blog posts, and more.",
-          "buttons": {
-            "primary": { "text": "Start for Free", "href": "#" },
-            "secondary": { "text": "Request a Demo", "href": "#" }
+            "primary": { "text": "Primary Button", "href": "#" },
+            "secondary": { "text": "Secondary Button", "href": "#" }
           }
         }
       },
@@ -231,89 +116,210 @@
         "component": "Features",
         "data": {
           "id": "features",
-          "title": "Features",
-          "subtitle": "Everything You Need to Scale",
-          "description": "Our platform is packed with features to help you create content faster and more effectively than ever before.",
+          "title": "Features Component",
+          "subtitle": "Display Key Features",
+          "description": "This section is perfect for highlighting the main selling points, services, or benefits of your product or company.",
           "items": [
-            { "name": "AI Copywriter", "description": "Generate compelling copy for ads, emails, and websites in seconds.", "icon": "CheckCircle" },
-            { "name": "Blog Post Generator", "description": "Create full-length, SEO-friendly blog articles from a simple prompt.", "icon": "CheckCircle" },
-            { "name": "Team Collaboration", "description": "Work with your entire team in a shared workspace with collaborative tools.", "icon": "CheckCircle" }
+            { "name": "Customizable Icons", "description": "Each feature can have a unique icon, selected from the icon library.", "icon": "CheckCircle" },
+            { "name": "Flexible Grid", "description": "The grid automatically adjusts to the number of feature items you provide.", "icon": "CheckCircle" },
+            { "name": "Engaging Titles", "description": "Use a main title, a subtitle, and a description to frame your features.", "icon": "CheckCircle" }
+          ]
+        }
+      },
+      {
+        "component": "Testimonials",
+        "data": {
+          "id": "testimonials",
+          "title": "Testimonials Component",
+          "subtitle": "Build Social Proof",
+          "description": "Showcase positive reviews and quotes from happy customers or clients to build trust and credibility.",
+          "items": [
+            { "quote": "This is where a glowing review from a happy customer would go. It's an essential part of building trust with new visitors.", "author": "Satisfied Client", "role": "Customer", "avatar": "https://placehold.co/100x100/a5b4fc/ffffff?text=SC" },
+            { "quote": "You can add as many testimonials as you need. The layout will adapt to show them in a clean, two-column grid.", "author": "Another User", "role": "Beta Tester", "avatar": "https://placehold.co/100x100/fca5a5/ffffff?text=AU" }
           ]
         }
       },
       {
         "component": "Plans",
         "data": {
-          "id": "pricing",
-          "title": "Simple, transparent pricing",
-          "description": "Choose the plan that's right for you. No hidden fees, ever.",
+          "id": "plans",
+          "title": "Plans/Pricing Component",
+          "description": "This component can be used for pricing tables, service tiers, or any kind of feature comparison between different options.",
           "plans": [
-            { "name": "Starter", "price": "$29", "period": "/month", "description": "For individuals and small teams.", "features": ["10,000 Words/mo", "Basic AI Models", "Email Support"], "isPopular": false, "ctaText": "Get Started" },
-            { "name": "Pro", "price": "$99", "period": "/month", "description": "For growing businesses.", "features": ["50,000 Words/mo", "Advanced AI Models", "Priority Support"], "isPopular": true, "ctaText": "Get Started" }
+            { "name": "Basic Tier", "price": "$19", "period": "/mo", "description": "A description for the basic plan.", "features": ["Feature A", "Feature B", "Feature C"], "isPopular": false, "ctaText": "Choose Plan" },
+            { "name": "Popular Tier", "price": "$49", "period": "/mo", "description": "A description for the most popular plan.", "features": ["All of Basic", "Feature D", "Feature E"], "isPopular": true, "ctaText": "Choose Plan" },
+            { "name": "Enterprise Tier", "price": "Custom", "period": "", "description": "A description for the enterprise plan.", "features": ["All of Popular", "24/7 Support", "Dedicated Manager"], "isPopular": false, "ctaText": "Contact Us" }
           ]
         }
       },
       {
-        "component": "CTA",
+        "component": "Contact",
         "data": {
-          "title": "Ready to dive in?",
-          "subtitle": "Start your free trial today. No credit card required.",
-          "button": { "text": "Create your account", "href": "#" }
-        }
-      }
-    ],
-    "header": {
-      "navigation": [
-        { "name": "Features", "href": "#features" },
-        { "name": "Pricing", "href": "#pricing" }
-      ],
-      "ctaButton": { "text": "Get Started", "href": "#pricing" }
-    },
-    "footer": {
-      "company": { "name": "SynthWave AI, Inc.", "description": "The future of content generation." },
-      "linkGroups": [
-        { "title": "Product", "links": [{ "name": "Features", "href": "#" }, { "name": "Integrations", "href": "#" }] },
-        { "title": "Company", "links": [{ "name": "About", "href": "#" }, { "name": "Blog", "href": "#" }] }
-      ]
-    }
-  },
-  "simpleCta": {
-    "globals": {
-      "appName": "QuickForm",
-      "theme": "wireframe"
-    },
-    "layout": [
-      {
-        "component": "Hero",
-        "data": {
-          "title": "One Simple Form",
-          "highlightedText": "One Big Result",
-          "subtitle": "Stop wasting time. Fill out our quick form to get a personalized quote for your project in under 24 hours. It's fast, free, and easy.",
-          "buttons": {
-            "primary": { "text": "Get My Free Quote", "href": "#" },
-            "secondary": { "text": "How It Works", "href": "#" }
+          "id": "contact",
+          "title": "Contact Component",
+          "subtitle": "Show All Contact Methods",
+          "description": "Display all available social media and contact links. The component will only show the icons for the links you provide.",
+          "socials": {
+            "Gmail": "mailto:showcase@example.com",
+            "WhatsApp": "https://wa.me/19876543210",
+            "Facebook": "https://facebook.com/showcase",
+            "Instagram": "https://instagram.com/showcase",
+            "Linkedin": "https://linkedin.com/company/showcase"
           }
         }
       },
       {
         "component": "CTA",
         "data": {
-          "title": "Don't Wait",
-          "subtitle": "Your personalized quote is just a click away.",
-          "button": { "text": "Get Quote Now", "href": "#" }
+          "id": "cta",
+          "title": "Call To Action Component",
+          "subtitle": "This is a simple, bold section designed to get the user to take one specific action.",
+          "button": { "text": "Final Action Button", "href": "#" }
         }
       }
     ],
     "header": {
       "navigation": [
-        { "name": "How It Works", "href": "#" },
-        { "name": "Contact", "href": "#" }
+        { "name": "Features", "href": "#features" },
+        { "name": "Testimonials", "href": "#testimonials" },
+        { "name": "Plans", "href": "#plans" },
+        { "name": "Contact", "href": "#contact" }
       ],
-      "ctaButton": { "text": "Get Quote", "href": "#" }
+      "ctaButton": { "text": "Action", "href": "#cta" }
     },
     "footer": {
-      "company": { "name": "QuickForm LLC", "description": "Fast quotes, faster results." },
-      "linkGroups": []
+      "company": { "name": "Showcase Inc.", "description": "Demonstrating modular components." },
+      "linkGroups": [
+        { 
+          "title": "Section Links", 
+          "links": [
+            { "name": "Features", "href": "#features" }, 
+            { "name": "Plans", "href": "#plans" },
+            { "name": "Contact", "href": "#contact" }
+          ] 
+        },
+        { 
+          "title": "Legal", 
+          "links": [
+            { "name": "Terms of Use", "href": "#" }, 
+            { "name": "Privacy Policy", "href": "#" }
+          ] 
+        }
+      ]
+    }
+  },
+  "vitrina": {
+    "globals": {
+      "appName": "Vitrina",
+      "theme": "light"
+    },
+    "layout": [
+      {
+        "component": "Hero",
+        "data": {
+          "title": "Muestra Cada",
+          "highlightedText": "Componente",
+          "subtitle": "Esta página demuestra cada componente disponible en el sistema modular. Úsala como guía para ver cómo cada sección puede ser personalizada y ordenada.",
+          "buttons": {
+            "primary": { "text": "Botón Principal", "href": "#" },
+            "secondary": { "text": "Botón Secundario", "href": "#" }
+          }
+        }
+      },
+      {
+        "component": "Features",
+        "data": {
+          "id": "caracteristicas",
+          "title": "Componente de Características",
+          "subtitle": "Muestra las Características Clave",
+          "description": "Esta sección es perfecta para resaltar los principales puntos de venta, servicios o beneficios de tu producto o empresa.",
+          "items": [
+            { "name": "Iconos Personalizables", "description": "Cada característica puede tener un ícono único, seleccionado de la biblioteca de íconos.", "icon": "CheckCircle" },
+            { "name": "Grilla Flexible", "description": "La grilla se ajusta automáticamente al número de ítems de características que proporciones.", "icon": "CheckCircle" },
+            { "name": "Títulos Atractivos", "description": "Usa un título principal, un subtítulo y una descripción para enmarcar tus características.", "icon": "CheckCircle" }
+          ]
+        }
+      },
+      {
+        "component": "Testimonials",
+        "data": {
+          "id": "testimonios",
+          "title": "Componente de Testimonios",
+          "subtitle": "Construye Prueba Social",
+          "description": "Muestra reseñas positivas y citas de clientes felices para construir confianza y credibilidad.",
+          "items": [
+            { "quote": "Aquí iría una reseña brillante de un cliente feliz. Es una parte esencial para construir confianza con nuevos visitantes.", "author": "Cliente Satisfecho", "role": "Cliente", "avatar": "https://placehold.co/100x100/a5b4fc/ffffff?text=CS" },
+            { "quote": "Puedes agregar tantos testimonios como necesites. El diseño se adaptará para mostrarlos en una grilla limpia de dos columnas.", "author": "Otro Usuario", "role": "Probador Beta", "avatar": "https://placehold.co/100x100/fca5a5/ffffff?text=OU" }
+          ]
+        }
+      },
+      {
+        "component": "Plans",
+        "data": {
+          "id": "planes",
+          "title": "Componente de Planes/Precios",
+          "description": "Este componente se puede usar para tablas de precios, niveles de servicio o cualquier tipo de comparación de características entre diferentes opciones.",
+          "plans": [
+            { "name": "Nivel Básico", "price": "$19", "period": "/mes", "description": "Una descripción para el plan básico.", "features": ["Característica A", "Característica B", "Característica C"], "isPopular": false, "ctaText": "Elegir Plan" },
+            { "name": "Nivel Popular", "price": "$49", "period": "/mes", "description": "Una descripción para el plan más popular.", "features": ["Todo lo de Básico", "Característica D", "Característica E"], "isPopular": true, "ctaText": "Elegir Plan" },
+            { "name": "Nivel Empresarial", "price": "Personalizado", "period": "", "description": "Una descripción para el plan empresarial.", "features": ["Todo lo de Popular", "Soporte 24/7", "Gerente Dedicado"], "isPopular": false, "ctaText": "Contáctanos" }
+          ]
+        }
+      },
+      {
+        "component": "Contact",
+        "data": {
+          "id": "contacto",
+          "title": "Componente de Contacto",
+          "subtitle": "Muestra Todos los Métodos de Contacto",
+          "description": "Muestra todos los enlaces de redes sociales y contacto disponibles. El componente solo mostrará los íconos para los enlaces que proporciones.",
+          "socials": {
+            "Gmail": "mailto:vitrina@example.com",
+            "WhatsApp": "https://wa.me/19876543210",
+            "Facebook": "https://facebook.com/vitrina",
+            "Instagram": "https://instagram.com/vitrina",
+            "Linkedin": "https://linkedin.com/company/vitrina"
+          }
+        }
+      },
+      {
+        "component": "CTA",
+        "data": {
+          "id": "cta",
+          "title": "Componente de Llamada a la Acción",
+          "subtitle": "Esta es una sección simple y audaz diseñada para que el usuario realice una acción específica.",
+          "button": { "text": "Botón de Acción Final", "href": "#" }
+        }
+      }
+    ],
+    "header": {
+      "navigation": [
+        { "name": "Características", "href": "#caracteristicas" },
+        { "name": "Testimonios", "href": "#testimonios" },
+        { "name": "Planes", "href": "#planes" },
+        { "name": "Contacto", "href": "#contacto" }
+      ],
+      "ctaButton": { "text": "Acción", "href": "#cta" }
+    },
+    "footer": {
+      "company": { "name": "Vitrina Inc.", "description": "Demostrando componentes modulares." },
+      "linkGroups": [
+        { 
+          "title": "Enlaces de Sección", 
+          "links": [
+            { "name": "Características", "href": "#caracteristicas" }, 
+            { "name": "Planes", "href": "#planes" },
+            { "name": "Contacto", "href": "#contacto" }
+          ] 
+        },
+        { 
+          "title": "Legal", 
+          "links": [
+            { "name": "Términos de Uso", "href": "#" }, 
+            { "name": "Política de Privacidad", "href": "#" }
+          ] 
+        }
+      ]
     }
   }
 }

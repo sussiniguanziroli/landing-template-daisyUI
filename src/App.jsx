@@ -12,35 +12,43 @@ import { Testimonials } from './components/Testimonials';
 import { Plans } from './components/Plans';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
+import { Contact } from './components/Contact'; // <-- 1. IMPORT a new component
 
-// 1. Create a map of component names (from JSON) to the actual imported components.
+// Create a map of component names (from JSON) to the actual imported components.
 const COMPONENT_MAP = {
   Hero,
   Features,
   Testimonials,
   Plans,
   CTA,
+  Contact, // <-- 2. ADD the new component to the map
 };
 
 export default function App() {
-  // 2. Select which landing page profile to render.
-  //    You can change "corporate" to "family", "saas", etc.
-  const pageData = pageLayouts.corporate;
+  const profileToLoad = 'vitrina';
+  const pageData = pageLayouts[profileToLoad];
+
+  if (!pageData) {
+    return (
+      <div data-theme="light" className="flex items-center justify-center min-h-screen bg-base-100 p-4">
+        <div className="text-center card bg-base-200 p-8 shadow-xl">
+          <h1 className="text-2xl font-bold text-error">Error: Page Profile Not Found</h1>
+          <p className="mt-2">The profile "<strong>{profileToLoad}</strong>" does not exist in your <code>landingPageData.json</code> file.</p>
+          <p className="mt-4 text-sm text-base-content/70">Please make sure the key exists in your JSON data and that the file is correctly loaded.</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    // 3. Set the global theme from the JSON data.
     <div data-theme={pageData.globals.theme} className="bg-base-100">
-      
       <Header appName={pageData.globals.appName} {...pageData.header} />
-      
       <main>
-        {/* 4. Render the page body by iterating over the `layout` array. */}
         {pageData.layout.map((section, index) => {
           const Component = COMPONENT_MAP[section.component];
           return Component ? <Component key={index} {...section.data} /> : null;
         })}
       </main>
-
       <Footer {...pageData.footer} />
     </div>
   );
