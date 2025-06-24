@@ -1,4 +1,4 @@
-// --- FILENAME: src/components/Footer.js ---
+// --- FILENAME: src/components/Footer.jsx ---
 import React from 'react';
 
 export const Footer = ({ company, linkGroups }) => {

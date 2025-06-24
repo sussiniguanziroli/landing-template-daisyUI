@@ -1,4 +1,4 @@
-// --- FILENAME: src/components/Header.js ---
+// --- FILENAME: src/components/Header.jsx ---
 import React from 'react';
 import { Disclosure } from '@headlessui/react';
 import { ICONS } from '../icons';
@@ -25,7 +25,7 @@ export const Header = ({ appName, navigation, ctaButton }) => {
               <div className="-mr-2 flex items-center sm:hidden">
                 <Disclosure.Button className="btn btn-square btn-ghost">
                   <span className="sr-only">Open main menu</span>
-                  {open ? ICONS.X({className: "block h-6 w-6"}) : ICONS.Menu({className: "block h-6 w-6"})}
+                  {open ? <ICONS.X className="block h-6 w-6" /> : <ICONS.Menu className="block h-6 w-6" />}
                 </Disclosure.Button>
               </div>
             </div>

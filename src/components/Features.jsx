@@ -1,10 +1,10 @@
-// --- FILENAME: src/components/Features.js ---
+// --- FILENAME: src/components/Features.jsx ---
 import React from 'react';
 import { ICONS } from '../icons';
 
-export const Features = ({ title, subtitle, description, items }) => {
+export const Features = ({ id, title, subtitle, description, items }) => {
     return (
-        <div id="features" className="py-24 bg-base-100">
+        <div id={id} className="py-24 bg-base-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h2 className="text-base font-semibold text-primary tracking-wide uppercase">{title}</h2>

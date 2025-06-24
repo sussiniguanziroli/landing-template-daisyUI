@@ -1,146 +1,319 @@
 {
-  "appName": "AwesomeApp",
-  "theme": "nord",
-  "header": {
-    "navigation": [
-      { "name": "Features", "href": "#features" },
-      { "name": "Pricing", "href": "#pricing" },
-      { "name": "Testimonials", "href": "#testimonials" }
-    ],
-    "ctaButton": {
-      "text": "Get Started",
-      "href": "#pricing"
-    }
-  },
-  "hero": {
-    "title": "Build Your Next Idea",
-    "highlightedText": "Faster",
-    "subtitle": "The ultimate starting point for your next project. A modern, responsive, and customizable landing page template built with React, Tailwind CSS, and DaisyUI.",
-    "buttons": {
-      "primary": {
-        "text": "Get Started for Free",
-        "href": "#pricing"
-      },
-      "secondary": {
-        "text": "Learn More",
-        "href": "#features"
-      }
-    }
-  },
-  "features": {
-    "title": "Features",
-    "subtitle": "Everything you need to succeed",
-    "description": "Our platform is packed with features designed to help you build, launch, and grow your business.",
-    "items": [
-      {
-        "name": "Modern Component Library",
-        "description": "Leverage the power of DaisyUI for beautiful, pre-built components that are easy to theme and customize.",
-        "icon": "CheckCircle"
-      },
-      {
-        "name": "Accessible UI",
-        "description": "Built with Headless UI to ensure that all interactive elements are fully accessible and keyboard-navigable out of the box.",
-        "icon": "CheckCircle"
-      },
-      {
-        "name": "Responsive by Design",
-        "description": "Using Tailwind CSS, this template is fully responsive and looks great on all devices, from mobile phones to desktops.",
-        "icon": "CheckCircle"
-      }
-    ]
-  },
-  "testimonials": {
-    "title": "Testimonials",
-    "subtitle": "Loved by developers worldwide",
-    "description": "Don't just take our word for it. Here's what some of our amazing users have to say about AwesomeApp.",
-    "items": [
-      {
-        "quote": "This template saved me hours of development time. The code is clean, and the design is stunning. Highly recommended!",
-        "author": "Alex Johnson",
-        "role": "Lead Developer, TechCorp",
-        "avatar": "https://placehold.co/100x100/ec4899/ffffff?text=AJ"
-      },
-      {
-        "quote": "A perfect starting point for any SaaS project. The integration of DaisyUI and Headless UI is seamless and powerful.",
-        "author": "Samantha Lee",
-        "role": "Founder, StartupX",
-        "avatar": "https://placehold.co/100x100/8b5cf6/ffffff?text=SL"
-      }
-    ]
-  },
-  "pricing": {
-    "title": "Simple, transparent pricing",
-    "description": "Choose the plan that's right for you. No hidden fees, ever.",
-    "plans": [
-      {
-        "name": "Starter",
-        "price": "$29",
-        "period": "/month",
-        "description": "Perfect for individuals and small teams just getting started.",
-        "features": ["5 Projects", "Basic Analytics", "24/7 Support"],
-        "isPopular": false,
-        "ctaText": "Get Started"
-      },
-      {
-        "name": "Pro",
-        "price": "$99",
-        "period": "/month",
-        "description": "Ideal for growing businesses that need more power and features.",
-        "features": ["Unlimited Projects", "Advanced Analytics", "Priority Support", "API Access"],
-        "isPopular": true,
-        "ctaText": "Get Started"
-      },
-      {
-        "name": "Enterprise",
-        "price": "Custom",
-        "period": "",
-        "description": "Tailored solutions for large organizations with specific needs.",
-        "features": ["Dedicated Infrastructure", "Custom Integrations", "SLA & SSO", "Premium Support"],
-        "isPopular": false,
-        "ctaText": "Contact Sales"
-      }
-    ]
-  },
-  "cta": {
-    "title": "Ready to dive in?",
-    "subtitle": "Start your free trial today. No credit card required.",
-    "button": {
-      "text": "Create your account",
-      "href": "#"
-    }
-  },
-  "footer": {
-    "company": {
-      "name": "AwesomeApp Ltd.",
-      "description": "Providing reliable tech since 2023"
+  "corporate": {
+    "globals": {
+      "appName": "BrightSmile Dental Group",
+      "theme": "winter"
     },
-    "linkGroups": [
-        {
-            "title": "Solutions",
-            "links": [
-                { "name": "Marketing", "href": "#" },
-                { "name": "Analytics", "href": "#" },
-                { "name": "Commerce", "href": "#" },
-                { "name": "Insights", "href": "#" }
-            ]
-        },
-        {
-            "title": "Company",
-            "links": [
-                { "name": "About us", "href": "#" },
-                { "name": "Contact", "href": "#" },
-                { "name": "Jobs", "href": "#" },
-                { "name": "Press kit", "href": "#" }
-            ]
-        },
-        {
-            "title": "Legal",
-            "links": [
-                { "name": "Terms of use", "href": "#" },
-                { "name": "Privacy policy", "href": "#" },
-                { "name": "Cookie policy", "href": "#" }
-            ]
+    "layout": [
+      {
+        "component": "Hero",
+        "data": {
+          "title": "A Brighter Smile Awaits",
+          "highlightedText": "You",
+          "subtitle": "Experience state-of-the-art dental care from our trusted network of expert dentists and modern clinics. Your oral health is our priority.",
+          "buttons": {
+            "primary": { "text": "Book an Appointment", "href": "#" },
+            "secondary": { "text": "Explore Our Services", "href": "#services" }
+          }
         }
-    ]
+      },
+      {
+        "component": "Features",
+        "data": {
+          "id": "services",
+          "title": "Our Commitment to You",
+          "subtitle": "Advanced Care and Comfort",
+          "description": "We combine cutting-edge technology with a patient-first approach to ensure you receive the best possible care.",
+          "items": [
+            { "name": "Comprehensive Dentistry", "description": "From routine check-ups and cleanings to fillings and root canals, we are your home for complete oral health.", "icon": "CheckCircle" },
+            { "name": "State-of-the-Art Technology", "description": "Our clinics are equipped with digital X-rays, 3D imaging, and intraoral cameras for precise diagnoses.", "icon": "CheckCircle" },
+            { "name": "Patient-Centered Comfort", "description": "We strive to make your visit as comfortable and stress-free as possible, with friendly staff and a relaxing environment.", "icon": "CheckCircle" }
+          ]
+        }
+      },
+      {
+        "component": "Testimonials",
+        "data": {
+          "id": "testimonials",
+          "title": "Patient Stories",
+          "subtitle": "Hear from Our Valued Patients",
+          "description": "See why professionals and families trust BrightSmile Dental Group.",
+          "items": [
+            { "quote": "The entire team was incredibly welcoming and professional. My procedure was painless, and I felt comfortable the whole time.", "author": "Maria Rodriguez", "role": "Patient", "avatar": "https://placehold.co/100x100/1abc9c/ffffff?text=MR" },
+            { "quote": "As a busy professional, I appreciate the efficiency and high-tech approach. They got my crown done in a single visit.", "author": "David Chen", "role": "Patient", "avatar": "https://placehold.co/100x100/3498db/ffffff?text=DC" }
+          ]
+        }
+      },
+      {
+        "component": "Plans",
+        "data": {
+          "id": "clinics",
+          "title": "Flexible Dental & Insurance Plans",
+          "description": "We believe quality dental care should be accessible. We accept a wide range of insurance plans and offer flexible financing options.",
+          "plans": [
+            { "name": "Major Insurance Accepted", "price": "", "period": "", "description": "We are in-network with most major PPO dental insurance providers.", "features": ["Delta Dental", "MetLife", "Cigna", "Aetna & more"], "isPopular": true, "ctaText": "Verify Your Insurance" },
+            { "name": "In-House Membership", "price": "", "period": "", "description": "No insurance? Our membership plan provides affordable access to preventive care.", "features": ["Two Cleanings per Year", "Annual Exams & X-Rays", "Discounts on Procedures"], "isPopular": false, "ctaText": "Learn More" }
+          ]
+        }
+      },
+      {
+        "component": "CTA",
+        "data": {
+          "title": "Ready to improve your smile?",
+          "subtitle": "Schedule your first consultation today at a clinic near you.",
+          "button": { "text": "Find Your Nearest Clinic", "href": "#" }
+        }
+      }
+    ],
+    "header": {
+      "navigation": [
+        { "name": "Our Services", "href": "#services" },
+        { "name": "Find a Clinic", "href": "#clinics" },
+        { "name": "Patient Stories", "href": "#testimonials" }
+      ],
+      "ctaButton": { "text": "Book Appointment", "href": "#" }
+    },
+    "footer": {
+      "company": { "name": "BrightSmile Dental Group Inc.", "description": "A network of trusted dental professionals." },
+      "linkGroups": [
+        { "title": "Services", "links": [{ "name": "General Dentistry", "href": "#" }, { "name": "Cosmetic Dentistry", "href": "#" }] },
+        { "title": "Company", "links": [{ "name": "About Us", "href": "#" }, { "name": "Contact", "href": "#" }] }
+      ]
+    }
+  },
+  "family": {
+    "globals": {
+      "appName": "Happy Teeth Dental",
+      "theme": "cupcake"
+    },
+    "layout": [
+      {
+        "component": "Hero",
+        "data": {
+          "title": "Gentle Care for",
+          "highlightedText": "Every Smile",
+          "subtitle": "Welcome to our family! We make dental visits fun and fearless for kids, and relaxing and comfortable for parents.",
+          "buttons": {
+            "primary": { "text": "Schedule a Visit", "href": "#" },
+            "secondary": { "text": "Meet Our Team", "href": "#" }
+          }
+        }
+      },
+      {
+        "component": "Features",
+        "data": {
+          "id": "care",
+          "title": "How We Care for Your Family",
+          "subtitle": "Happy Visits, Healthy Teeth",
+          "description": "We've created a warm, friendly space where every member of your family can feel at ease.",
+          "items": [
+            { "name": "Pediatric Specialists", "description": "Our kid-loving dentists are experts in making little ones comfortable.", "icon": "CheckCircle" },
+            { "name": "No More Tears Checkups", "description": "We use games and stories to make dental checkups a positive experience.", "icon": "CheckCircle" },
+            { "name": "Care for the Grown-Ups", "description": "Parents deserve great care too! We offer a full range of services in a calm setting.", "icon": "CheckCircle" }
+          ]
+        }
+      },
+      {
+        "component": "Testimonials",
+        "data": {
+          "id": "stories",
+          "title": "From Our Happy Families",
+          "subtitle": "What Parents Are Saying",
+          "description": "We're honored to be a trusted part of so many families' healthcare routines.",
+          "items": [
+            { "quote": "My son used to be terrified of the dentist, but the team at Happy Teeth is magical. He actually looks forward to his checkups now!", "author": "Jessica Miller", "role": "Parent", "avatar": "https://placehold.co/100x100/f1c40f/ffffff?text=JM" }
+          ]
+        }
+      },
+      {
+        "component": "CTA",
+        "data": {
+          "title": "Ready for a stress-free dental visit?",
+          "subtitle": "Join the Happy Teeth family today!",
+          "button": { "text": "Book Your First Visit", "href": "#" }
+        }
+      }
+    ],
+    "header": {
+      "navigation": [
+        { "name": "For Parents", "href": "#" },
+        { "name": "For Kids", "href": "#" },
+        { "name": "Our Doctors", "href": "#" }
+      ],
+      "ctaButton": { "text": "Book for the Family", "href": "#" }
+    },
+    "footer": {
+      "company": { "name": "Happy Teeth Dental", "description": "Caring for your family's smiles." },
+      "linkGroups": [
+        { "title": "For Patients", "links": [{ "name": "First Visit Guide", "href": "#" }, { "name": "Kid's Corner", "href": "#" }] }
+      ]
+    }
+  },
+  "cosmetic": {
+    "globals": {
+      "appName": "Aura Smile Design",
+      "theme": "dark"
+    },
+    "layout": [
+      {
+        "component": "Hero",
+        "data": {
+          "title": "Artistry Meets Dentistry",
+          "highlightedText": "Design Your Smile",
+          "subtitle": "Discover the potential of your smile with our bespoke cosmetic treatments, blending science and art.",
+          "buttons": {
+            "primary": { "text": "Begin Your Transformation", "href": "#" },
+            "secondary": { "text": "View Gallery", "href": "#" }
+          }
+        }
+      },
+      {
+        "component": "Testimonials",
+        "data": {
+          "id": "stories",
+          "title": "Life-Changing Results",
+          "subtitle": "Stories from Our Clients",
+          "description": "Confidence begins with a beautiful smile. Hear from those who have completed their transformation.",
+          "items": [
+            { "quote": "I never thought I could have a smile like this. The team at Aura didn't just change my teeth, they changed my life.", "author": "Sophia Loren", "role": "Veneers Client", "avatar": "https://placehold.co/100x100/9b59b6/ffffff?text=SL" },
+            { "quote": "The process was seamless, luxurious, and the results are beyond what I imagined. It's the best investment I've ever made.", "author": "James Peterson", "role": "Smile Makeover Client", "avatar": "https://placehold.co/100x100/ecf0f1/2c3e50?text=JP" }
+          ]
+        }
+      },
+      {
+        "component": "Plans",
+        "data": {
+          "id": "financing",
+          "title": "Investing In Your Confidence",
+          "description": "We provide premium financing options to make your dream smile an attainable luxury.",
+          "plans": [
+            { "name": "Premium Financing", "description": "Customized payment plans with competitive rates for cosmetic procedures.", "features": ["Plans up to 84 months", "Instant Online Approval", "Confidential Application"], "isPopular": true, "ctaText": "Explore Options" },
+            { "name": "Insurance for Restorative", "description": "We help maximize benefits for any restorative components of your treatment.", "features": ["Insurance Concierge Service", "Detailed Pre-Authorizations"], "isPopular": false, "ctaText": "Inquire Now" }
+          ]
+        }
+      }
+    ],
+    "header": {
+      "navigation": [
+        { "name": "Transformations", "href": "#" },
+        { "name": "Our Process", "href": "#" },
+        { "name": "Financing", "href": "#financing" }
+      ],
+      "ctaButton": { "text": "Book a Consultation", "href": "#" }
+    },
+    "footer": {
+      "company": { "name": "Aura Smile Design", "description": "Where artistry meets dentistry." },
+      "linkGroups": [
+        { "title": "Treatments", "links": [{ "name": "Porcelain Veneers", "href": "#" }, { "name": "Teeth Whitening", "href": "#" }] },
+        { "title": "Explore", "links": [{ "name": "Our Studio", "href": "#" }, { "name": "Gallery", "href": "#" }] }
+      ]
+    }
+  },
+  "saas": {
+    "globals": {
+      "appName": "SynthWave AI",
+      "theme": "nord"
+    },
+    "layout": [
+      {
+        "component": "Hero",
+        "data": {
+          "title": "Generate Content",
+          "highlightedText": "Instantly",
+          "subtitle": "SynthWave AI is a revolutionary platform that leverages generative AI to create high-quality marketing copy, blog posts, and more.",
+          "buttons": {
+            "primary": { "text": "Start for Free", "href": "#" },
+            "secondary": { "text": "Request a Demo", "href": "#" }
+          }
+        }
+      },
+      {
+        "component": "Features",
+        "data": {
+          "id": "features",
+          "title": "Features",
+          "subtitle": "Everything You Need to Scale",
+          "description": "Our platform is packed with features to help you create content faster and more effectively than ever before.",
+          "items": [
+            { "name": "AI Copywriter", "description": "Generate compelling copy for ads, emails, and websites in seconds.", "icon": "CheckCircle" },
+            { "name": "Blog Post Generator", "description": "Create full-length, SEO-friendly blog articles from a simple prompt.", "icon": "CheckCircle" },
+            { "name": "Team Collaboration", "description": "Work with your entire team in a shared workspace with collaborative tools.", "icon": "CheckCircle" }
+          ]
+        }
+      },
+      {
+        "component": "Plans",
+        "data": {
+          "id": "pricing",
+          "title": "Simple, transparent pricing",
+          "description": "Choose the plan that's right for you. No hidden fees, ever.",
+          "plans": [
+            { "name": "Starter", "price": "$29", "period": "/month", "description": "For individuals and small teams.", "features": ["10,000 Words/mo", "Basic AI Models", "Email Support"], "isPopular": false, "ctaText": "Get Started" },
+            { "name": "Pro", "price": "$99", "period": "/month", "description": "For growing businesses.", "features": ["50,000 Words/mo", "Advanced AI Models", "Priority Support"], "isPopular": true, "ctaText": "Get Started" }
+          ]
+        }
+      },
+      {
+        "component": "CTA",
+        "data": {
+          "title": "Ready to dive in?",
+          "subtitle": "Start your free trial today. No credit card required.",
+          "button": { "text": "Create your account", "href": "#" }
+        }
+      }
+    ],
+    "header": {
+      "navigation": [
+        { "name": "Features", "href": "#features" },
+        { "name": "Pricing", "href": "#pricing" }
+      ],
+      "ctaButton": { "text": "Get Started", "href": "#pricing" }
+    },
+    "footer": {
+      "company": { "name": "SynthWave AI, Inc.", "description": "The future of content generation." },
+      "linkGroups": [
+        { "title": "Product", "links": [{ "name": "Features", "href": "#" }, { "name": "Integrations", "href": "#" }] },
+        { "title": "Company", "links": [{ "name": "About", "href": "#" }, { "name": "Blog", "href": "#" }] }
+      ]
+    }
+  },
+  "simpleCta": {
+    "globals": {
+      "appName": "QuickForm",
+      "theme": "wireframe"
+    },
+    "layout": [
+      {
+        "component": "Hero",
+        "data": {
+          "title": "One Simple Form",
+          "highlightedText": "One Big Result",
+          "subtitle": "Stop wasting time. Fill out our quick form to get a personalized quote for your project in under 24 hours. It's fast, free, and easy.",
+          "buttons": {
+            "primary": { "text": "Get My Free Quote", "href": "#" },
+            "secondary": { "text": "How It Works", "href": "#" }
+          }
+        }
+      },
+      {
+        "component": "CTA",
+        "data": {
+          "title": "Don't Wait",
+          "subtitle": "Your personalized quote is just a click away.",
+          "button": { "text": "Get Quote Now", "href": "#" }
+        }
+      }
+    ],
+    "header": {
+      "navigation": [
+        { "name": "How It Works", "href": "#" },
+        { "name": "Contact", "href": "#" }
+      ],
+      "ctaButton": { "text": "Get Quote", "href": "#" }
+    },
+    "footer": {
+      "company": { "name": "QuickForm LLC", "description": "Fast quotes, faster results." },
+      "linkGroups": []
+    }
   }
 }

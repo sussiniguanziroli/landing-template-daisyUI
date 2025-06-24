@@ -1,44 +1,47 @@
 // --- FILENAME: src/App.jsx ---
-// The main component that brings everything together.
 import React from 'react';
 
-// 1. Import the data from your JSON file
-import landingPageData from './assets/landingPageData.json';
+// Import the data from your JSON file
+import pageLayouts from './assets/landingPageData.json';
 
-// 2. Import all the section components
+// Import all the section components
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
 import { Features } from './components/Features';
 import { Testimonials } from './components/Testimonials';
-import { Pricing } from './components/Pricing';
+import { Plans } from './components/Plans';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
 
-// The main App component
+// 1. Create a map of component names (from JSON) to the actual imported components.
+const COMPONENT_MAP = {
+  Hero,
+  Features,
+  Testimonials,
+  Plans,
+  CTA,
+};
+
 export default function App() {
-  // Use the imported data
-  const data = landingPageData;
+  // 2. Select which landing page profile to render.
+  //    You can change "corporate" to "family", "saas", etc.
+  const pageData = pageLayouts.corporate;
 
   return (
-    // The theme is now driven by the data from your JSON file
-    <div data-theme={data.theme} className="bg-base-100">
+    // 3. Set the global theme from the JSON data.
+    <div data-theme={pageData.globals.theme} className="bg-base-100">
       
-      {/* 3. Render each component, passing the relevant part of the data as props.
-           The spread operator (...) is a shortcut to pass all key-value pairs 
-           from an object as props. For example, {...data.hero} is the same as
-           writing title={data.hero.title} highlightedText={data.hero.highlightedText} etc.
-      */}
-      <Header appName={data.appName} navigation={data.header.navigation} ctaButton={data.header.ctaButton} />
+      <Header appName={pageData.globals.appName} {...pageData.header} />
       
       <main>
-        <Hero {...data.hero} />
-        <Features {...data.features} />
-        <Testimonials {...data.testimonials} />
-        <Pricing {...data.pricing} />
-        <CTA {...data.cta} />
+        {/* 4. Render the page body by iterating over the `layout` array. */}
+        {pageData.layout.map((section, index) => {
+          const Component = COMPONENT_MAP[section.component];
+          return Component ? <Component key={index} {...section.data} /> : null;
+        })}
       </main>
 
-      <Footer {...data.footer} />
+      <Footer {...pageData.footer} />
     </div>
   );
 }

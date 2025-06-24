@@ -1,17 +1,18 @@
-// --- FILENAME: src/components/Pricing.js ---
+// --- FILENAME: src/components/Plans.jsx ---
+// (Previously Pricing.jsx)
 import React from 'react';
 import { ICONS } from '../icons';
 
-export const Pricing = ({ title, description, plans }) => {
+export const Plans = ({ id, title, description, plans }) => {
     return (
-        <div id="pricing" className="py-24 bg-base-100">
+        <div id={id} className="py-24 bg-base-100">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h2 className="text-4xl font-bold tracking-tight text-base-content sm:text-5xl">{title}</h2>
                     <p className="mt-4 max-w-2xl mx-auto text-lg text-base-content/70">{description}</p>
                 </div>
                 <div className="mt-16 grid grid-cols-1 lg:grid-cols-3 gap-8">
-                    {plans.map((plan) => (
+                    {plans && plans.map((plan) => (
                         <div key={plan.name} className={`card bg-base-100 shadow-xl ${plan.isPopular ? 'border-2 border-primary' : 'border border-base-300'}`}>
                             {plan.isPopular && <div className="badge badge-primary absolute -top-3 right-4">POPULAR</div>}
                             <div className="card-body">

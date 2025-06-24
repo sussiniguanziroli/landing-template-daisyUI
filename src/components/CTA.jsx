@@ -1,4 +1,4 @@
-// --- FILENAME: src/components/CTA.js ---
+// --- FILENAME: src/components/CTA.jsx ---
 import React from 'react';
 
 export const CTA = ({ title, subtitle, button }) => {

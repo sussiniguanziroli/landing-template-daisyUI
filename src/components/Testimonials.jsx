@@ -1,10 +1,10 @@
-// --- FILENAME: src/components/Testimonials.js ---
+// --- FILENAME: src/components/Testimonials.jsx ---
 import React from 'react';
 import { ICONS } from '../icons';
 
-export const Testimonials = ({ subtitle, description, items }) => {
+export const Testimonials = ({ id, subtitle, description, items }) => {
     return (
-      <div id="testimonials" className="py-24 bg-base-200">
+      <div id={id} className="py-24 bg-base-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h2 className="text-4xl font-bold tracking-tight text-base-content sm:text-5xl">{subtitle}</h2>
@@ -38,4 +38,4 @@ export const Testimonials = ({ subtitle, description, items }) => {
         </div>
       </div>
     );
-  };
+};

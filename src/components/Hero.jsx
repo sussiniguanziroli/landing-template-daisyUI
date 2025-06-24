@@ -1,4 +1,4 @@
-// --- FILENAME: src/components/Hero.js ---
+// --- FILENAME: src/components/Hero.jsx ---
 import React from 'react';
 import { ICONS } from '../icons';
 
